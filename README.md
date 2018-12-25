@@ -6,6 +6,7 @@ The code examples and topics in this handbook is gathered from various sources t
 Glossary:
 ------
 - tsc = TypeScript
+- TS = TypeScript
 - WBAS = will be added soon (as I progress with my learning goals)
 
 What is TypeScript?

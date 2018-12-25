@@ -44,3 +44,6 @@ fabric.properties
 
 # VSCode
 .vscode
+
+#
+*.js
