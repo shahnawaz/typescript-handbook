@@ -1,7 +1,7 @@
 TypeScript Handbook
 ===================
 
-The code examples and topics in this handbook are gathered from various sources to give (or learn) TypeScript in more detail.
+The code examples and topics in this handbook is gathered from various sources to give (or learn) TypeScript in more detail.
 
 Glossary:
 ------
