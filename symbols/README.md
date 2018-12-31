@@ -54,5 +54,11 @@ let className = c[getClassNameSymbol](); // "C"
 Well-known Symbols
 ----
 
+`Symbol.iterator`
+
+A method that returns the default iterator for an object. Called by the semantics of the for-of statement.
+
+
+
 WBAS
 
