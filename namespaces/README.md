@@ -112,5 +112,32 @@ import polygons = Shapes.Polygons;
 let sq = new polygons.Square(); // Same as 'new Shapes.Polygons.Square()'
 ```
 
+Ambient Namespaces
+----
+
+The popular library D3 defines its functionality in a global object called d3. Because this library is loaded through a `<script>` tag (instead of a module loader), **its declaration uses namespaces to define its shape**
+
+_D3.d.ts (simplified excerpt)_
+```
+declare namespace D3 {
+    export interface Selectors {
+        select: {
+            (selector: string): Selection;
+            (element: EventTarget): Selection;
+        };
+    }
+
+    export interface Event {
+        x: number;
+        y: number;
+    }
+
+    export interface Base extends Selectors {
+        event: Event;
+    }
+}
+
+declare var d3: D3.Base;
+```
 
 
